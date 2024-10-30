@@ -40,8 +40,8 @@ h3, h4, h5 {
 }
 
 .header-profile-picture {
-    width: 100px !important;
-    height: 100px !important;
+    width: 200px !important;
+    height: 200px !important;
     margin-right: 12px;
     border-radius: 50%;
     background-image: url(files/me2.jpeg);
