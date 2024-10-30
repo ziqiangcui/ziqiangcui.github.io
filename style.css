@@ -4,7 +4,6 @@ html {
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
-
 body {
     background-color: #fdfdfd;
     color: #234;
@@ -12,6 +11,23 @@ body {
     font-size: 13px;
     font-family: 'Lato', Verdana, Helvetica, sans-serif; /* 统一字体 */
 }
+
+.news-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+.date-box {
+            background-color: #ff4500; /* 背景颜色 */
+            color: white; /* 字体颜色 */
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+.news-content {
+            flex: 1;
+        }
 
 h1, h2, h3, h4, h5 {
     font-weight: normal;
